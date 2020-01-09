@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../JS/Login.js"></script>
+        <!-- C://Users/Artyom/Desktop/JavaScript/JS-Fbase/My web app/src/main/webapp/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js"></script>
+        <link type="text/css" href="../CSS/LoginStyle.css" rel='stylesheet' >
+        <!-- C://Users/Artyom/Desktop/JavaScript/JS-Fbase/My web app/src/main/webapp -->
+
+    </head>
+    <body>
+        <div class="container" id="HeadContainer">
+
+            <h3 id="welcomeText">Welcome to your</h3>
+            <h5 id="PHOTOGRAMtext">PHOTOGRAM</h5>
+
+            <div class="container" id="inputContainer">
+
+                    <label for="loginField" class="label" id="loginLabel"><h1>Your login:</h1></label>
+                    <input type="text" class="textField"  id="loginField">
+
+                    <label for="passwordField" class="label" id="passwordLabel"><h1>Your password:</h1></label>
+                    <input type="password" class="textField" id="passwordField">
+
+                    <label for="passwordField2" class="label" id="passwordLabel2" hidden=true><h1>Repeat your password:</h1></label>
+                    <input type="password" class="textField" id="passwordField2" hidden=true>
+
+                    <label for="ageField" class="label" id="ageLabel" hidden=true><h1>Your age:</h1></label>
+                    <input type="text" class="textField" id="ageField" hidden=true>
+
+                    <label for="genderField" class="label" id="genderLabel"hidden=true><h1>Your gender:</h1></label>
+                    <input type="text" class="textField" id="genderField"hidden=true>
+        
+            </div>
+            
+
+            <div class="container" id="buttonContainer">
+
+                <button class="button" id="confirm" onclick=confirm()>Log in</button>
+                <button class="button" id="create" onclick=create()>Create account</button>
+                
+            </div>
+
+        </div>
+    </body>
+</html>

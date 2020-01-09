@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>
+      HTML/Login.html
+    </welcome-file>
+  </welcome-file-list>
+
+<servlet>
+  <servlet-name>add</servlet-name>
+  <servlet-class>Servlets.AddClient</servlet-class>
+</servlet>
+
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HomePage</servlet-name>
+    <servlet-class>Servlets.HomePageServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HomePage</servlet-name>
+    <url-pattern>/HomePage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>Servlets.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Send</servlet-name>
+    <servlet-class>Servlets.Send</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Send</servlet-name>
+    <url-pattern>/Send</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GetMessages</servlet-name>
+    <servlet-class>Servlets.GetMessages</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetMessages</servlet-name>
+    <url-pattern>/GetMessages</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addFriend</servlet-name>
+    <servlet-class>Servlets.AddFriend</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addFriend</servlet-name>
+    <url-pattern>/addFriend</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>GetGallery</servlet-name>
+    <servlet-class>Servlets.GetGallery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetGallery</servlet-name>
+    <url-pattern>/GetGallery</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ChosePic</servlet-name>
+    <servlet-class>Servlets.ChosePic</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChosePic</servlet-name>
+    <url-pattern>/ChosePic</url-pattern>
+  </servlet-mapping>
+
+</web-app>

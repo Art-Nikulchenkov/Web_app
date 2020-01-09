@@ -1,0 +1,6 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(þ¤Ããÿÿÿÿÿ
+Qsquid:S1161":Add the "@Override" annotation above this method signature(¦‚µ
+Ysquid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+O
+squid:S106	"9Replace this use of System.out or System.err by a logger.(œþü”

@@ -1,0 +1,237 @@
+#HeadContainer{
+    background-color: rgb(248, 185, 248);
+    border-radius: 15px;
+    margin: 30px;
+    top: 100px;
+}
+body{
+    background-color: rgb(255, 228, 255);
+}
+H3{
+    color: #000080;
+    background-color: rgb(248, 185, 248);
+    font-size: 170%;
+    font-family: Bahnschrift;
+}
+H1{
+    color: #000080;
+    font-family: Bahnschrift;
+    font-size: 125%;
+    background-color: rgb(248, 185, 248);
+}
+H2{
+    font-size: 115%;
+    font-family: Bahnschrift;
+}
+#PHOTOGRAMtext{
+    color: #000077;
+    font-size: 270%;
+    height: 18px;
+    font-family: Bahnschrift;
+    top: 20px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(255, 212, 255);
+}
+.myMessage{
+    background-color: rgb(247, 174, 247);
+    text-align: right;
+}
+.friendMessage{
+    background-color: rgb(255, 212, 255);
+    text-align: left;
+}
+.mainButton{
+    /* text-decoration: none; */
+    outline: none;
+    /* width: 200px; */
+    font-family: Bahnschrift;
+    background-color: rgb(34, 137, 255);
+    font-size: 17px;
+    font-weight: 420;/*tolshina bukv*/
+    margin: 0px;
+    border-radius: 4px;
+    border: indigo 0px solid;
+    box-shadow: none;
+    line-height: 25px;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#1f0dbe 50%,#eb0808);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    /* padding: 5px; */
+}
+.mainButton:hover{
+    /* background: rgb(77, 183, 224); */
+    border-radius: 10px;
+    letter-spacing: 4px;
+    color: lavenderblush;
+    background-position: 0 0;
+    font-weight: 620;
+}
+.friendButton{
+    /* text-decoration: none; */
+    outline: none;
+    /* width: 200px; */
+    font-family: Bahnschrift;
+    background-color: rgb(34, 137, 255);
+    color: aliceblue;
+    font-size: 17px;
+    width: 180px;
+    height: 50px;
+    font-weight: 420;/*tolshina bukv*/
+    margin: 0px;
+    border-radius: 0px 4px 4px 0px;
+    border: indigo 0px solid;
+    box-shadow: red;
+    line-height: 25px;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#1f0dbe 50%,#eb0808);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    position: relative;
+    top: -20px;
+    /* padding: 5px; */
+}
+.friendButton:hover{
+    /* background: rgb(77, 183, 224); */
+    border-radius: 0px 10px 10px 0px;
+    /* letter-spacing: 4px; */
+    color: lavenderblush;
+    background-position: 0 0;
+    /* font-weight: 620; */
+}
+.sendingButton{
+    /* text-decoration: none; */
+    outline: none;
+    /* width: 200px; */
+    font-family: Bahnschrift;
+    background-color: rgb(34, 137, 255);
+    color: aliceblue;
+    font-size: 17px;
+    width: 180px;
+    height: 50px;
+    font-weight: 420;/*tolshina bukv*/
+    margin: 0px;
+    border-radius: 4px;
+    border: indigo 0px solid;
+    box-shadow: red;
+    line-height: 25px;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+    /* padding: 5px; */
+}
+.sendingButton:hover{
+    /* background: rgb(77, 183, 224); */
+    border-radius: 10px;
+    background-color: rgb(0, 111, 238);
+    /* letter-spacing: 4px; */
+    color: lavenderblush;
+    /* font-weight: 620; */
+}
+.friendPicture{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.userPicture{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+.chosePicture{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+#sendButton{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    left: -150px;
+    top: 580px;
+}
+#sendPicButton{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: -150px;
+    top: 580px;
+}
+#chosePic{
+    width: 150px;
+    height: 500px;
+    top: 10px;
+    left: 890px;
+    position: relative;
+}
+.scrollbar {
+    background-color: rgb(181, 188, 255);
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+}
+.messagePicture{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.galleryPicture{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+#messageField{
+    width: 300px;
+    height: 30px;
+    top: 580px;
+    left: -150px;
+    position: relative;
+}
+#scrollFriends{
+    overflow : scroll;
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    height: 580px;
+}
+#scrollMessages{
+    overflow : scroll;
+    width: 500px;
+    left: 320px;
+    position: absolute;
+    height: 540px;
+}
+
+#UserDataContainer{
+    position: absolute;
+    right: 40px;
+    width: 400px;
+    height: 600px;
+    top: 120px;
+    border-radius: 20px;
+    background-color: rgb(250, 159, 250);
+}
+
+#scrollData{
+    overflow: scroll;
+    width: 400px;
+    height: 700px;
+    right: 39px;
+}
+
+#userPhoto{
+    width: 400px;
+    height: 400px;
+}
+#messagesContainer{
+    text-align: center;
+    top: -30px;
+}

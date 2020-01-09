@@ -1,0 +1,24 @@
+
+ysquid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(Á«ïıÿÿÿÿ8æ¥èµğ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(•şÀÄ8åî½şğ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¬8ºÜğ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùµ–ı8Ëøİşğ-
+esquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ûÈİ¡8¥«Üşğ-
+ksquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ƒÑ¢ìúÿÿÿÿ8ã¾íµğ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Éƒ¼‚8ÄËßşğ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ïïç†8ÄËßşğ-
+Xsquid:S1854	"5Remove this useless assignment to local variable "q".(×£²úşÿÿÿÿ8ƒèşğ-
+Isquid:S1481	"&Remove this unused "q" local variable.(×£²úşÿÿÿÿ8ƒèşğ-
+Csquid:S2068" Remove this hard-coded password.(ƒÑ¢ìúÿÿÿÿ8öªëµğ-
+jsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8­®—İğ-
+jsquid:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8îĞ“ÿğ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¶Ñüÿÿÿÿ8´¤¶Üğ-
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(•şÀÄ8ß”“ÿğ-
+ksquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ƒÑ¢ìúÿÿÿÿ8Ÿ±”ÿğ-
